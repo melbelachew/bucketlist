@@ -3,19 +3,18 @@
 
     body {
         font-family: 'Montserrat', sans-serif;
-        
     }
   
 .container {
-    background-color:aliceblue;
+    /* background-color:aliceblue; */
     opacity: .9;
 }
 
-@media only screen and (max-width: 992px){
+/* @media only screen and (max-width: 992px){
     .container{
         width: 100%
     }
-}
+} */
 .navbar {
     background-color: antiquewhite;
     opacity: .8;
@@ -61,6 +60,11 @@ header h2 {
 	color: #34495e;
 }
 
+@media only screen and (max-width: 992px){
+    #listInput {
+        width: 95%
+    }
+}
 /*****************************LIST STYLES*****************************/
 .list {
 	width: 800px;
@@ -79,14 +83,14 @@ header h2 {
 
 .task:hover {
     widows: auto;
-    background: #00000017;
-    font-size: 25px;
+	background: #00000017;
+	 /* font-size: 25px; */
 	cursor: pointer;
 }
 
 @media only screen and (max-width: 992px){
     .task{
-        width: 86%
+        width: 100%
     }
 }
 

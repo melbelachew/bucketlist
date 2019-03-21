@@ -1,3 +1,3 @@
 # bucketlist
 
-Full stack application made with node, mongoose & jQuery
+Full stack, responsive application made with node, mongoose & jQuery
