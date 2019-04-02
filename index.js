@@ -1,8 +1,8 @@
- let express =require ("express");
- let app = express();
- let port = process.env.PORT || 8080;
- let bucketRoutes =require('./routes/bucketLists');
- let bodyParser = require('body-parser');
+ var express =require ("express");
+ var app = express();
+ var port = process.env.PORT || 8080;
+ var bucketRoutes =require('./routes/bucketLists');
+ var bodyParser = require('body-parser');
  
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
